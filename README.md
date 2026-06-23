@@ -1,4 +1,4 @@
 # Reckon
 A lightweight DPS meter with inspiration taken from the WoW Classic "Details!"
 
-Most recent download: [Reckon v0.8](./Reckon.zip)
+Most recent download: [Reckon v0.8](https://github.com)
