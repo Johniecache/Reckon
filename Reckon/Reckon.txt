@@ -1,0 +1,29 @@
+## Title: Reckon
+## Author: you
+## Version: 0.8.0
+## APIVersion: 101046 101047
+## AddOnVersion: 100
+## Description: Lightweight live DPS/HPS meter in the style of Details!. Class-coloured bars, real character names, per-player DPS for sharers (Hodor/LibGroupCombatStats), an estimate for the rest, a Healing mode, and a per-ability drill-down. LibAddonMenu is bundled; the combat libraries are optional (install via Minion for per-player).
+## SavedVariables: ReckonSavedVars
+## OptionalDependsOn: LibAddonMenu-2.0 LibGroupCombatStats LibCombat LibGroupBroadcast
+
+; ---- bundled library: LibAddonMenu-2.0 (Artistic License 2.0) ----
+libs\LibAddonMenu-2.0\development.lua
+libs\LibAddonMenu-2.0\LibAddonMenu-2.0.lua
+libs\LibAddonMenu-2.0\controls\panel.lua
+libs\LibAddonMenu-2.0\controls\submenu.lua
+libs\LibAddonMenu-2.0\controls\button.lua
+libs\LibAddonMenu-2.0\controls\checkbox.lua
+libs\LibAddonMenu-2.0\controls\colorpicker.lua
+libs\LibAddonMenu-2.0\controls\custom.lua
+libs\LibAddonMenu-2.0\controls\description.lua
+libs\LibAddonMenu-2.0\controls\dropdown.lua
+libs\LibAddonMenu-2.0\controls\editbox.lua
+libs\LibAddonMenu-2.0\controls\header.lua
+libs\LibAddonMenu-2.0\controls\slider.lua
+libs\LibAddonMenu-2.0\controls\texture.lua
+libs\LibAddonMenu-2.0\controls\iconpicker.lua
+libs\LibAddonMenu-2.0\controls\divider.lua
+
+; ---- Reckon ----
+Reckon.lua
